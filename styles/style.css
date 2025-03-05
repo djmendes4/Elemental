@@ -1,0 +1,48 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.game-container {
+  margin-top: 30px;
+}
+
+#gameArea {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 50px;
+  border: 1px solid #ccc;
+  display: none;  /* Hide until the game starts */
+}
